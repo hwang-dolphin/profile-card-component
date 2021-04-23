@@ -1,0 +1,148 @@
+
+*
+{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color: hsl(185, 75%, 39%);
+	
+}
+
+
+.background-top{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 47%;
+	height: 70%;
+
+	transform: rotate(180deg);
+	background-image: url("../images/bg-pattern-bottom.svg");
+
+}
+
+
+
+.background-bottom{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 50%;
+	height: 45%;
+
+	background-image: url("../images/bg-pattern-bottom.svg"); 
+}
+
+.card
+{
+	position: absolute;
+	width: 25%;
+	height: 53%;	
+	background-color: white;
+
+	top: 50%;
+	left: 50%;
+	
+	transform: translate(-50%, -50%);
+
+	border-radius: 15px;
+
+	text-align: center;
+}
+
+.card-top
+{
+	background-image: url("../images/bg-pattern-card.svg");
+	
+	width: 100%;
+	height: 44%;
+
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+}
+
+.picture
+{
+	position: absolute;
+
+	width: 30%;
+	height: auto;	
+
+	border-radius: 50%;
+	border: solid 3px;
+	border-color: white;
+	
+	top: 100px;
+	left: 130px;
+}
+
+.name
+{
+	position: absolute;
+	font-family: 'Kumbh Sans', sans-serif;
+	font-size: 18px;
+	color: black;	
+
+	top: 230px;
+	left: 120px;
+}
+
+.age
+{
+	font-family: 'Kumbh Sans', sans-serif;
+	font-size: 18px;
+	color: hsl(0, 0%, 59%);
+}
+
+.place
+{
+	font-family: 'Kumbh Sans', sans-serif;
+ 	font-size: 15px;
+	color: hsl(0, 0%, 59%);
+	margin-top: 10px;
+	margin-bottom: 10px; 
+}
+
+.hr
+{
+	position: absolute;
+	top: 290px;
+	width: 100%;
+	color: hsl(0, 0%, 59%);
+}
+
+
+.card-bottom
+{
+	position: absolute;
+	bottom: 0;
+
+	width: 100%;
+	height: 13%;	
+
+	border-bottom-left-radius: 15px;
+ 	border-bottom-right-radius: 15px;	
+}
+
+.card-bottom-boxes
+{
+	display: inline-block;
+	float: left;
+
+	width: 33%;
+	height: 13%;
+
+	font-family: 'Kumbh Sans', sans-serif;
+ 	font-size: 18px;
+ 	color: black;			
+}
+
+.card-bottom-boxes-tiny-letters
+{
+	color: hsl(0, 0%, 59%);
+	font-size: 12px; 
+
+}
